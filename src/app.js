@@ -42,6 +42,19 @@ server.post('/createsecret', (req, res) => {
   // TODO Create a private and encrypted gist with given name/content
   // NOTE - we're only encrypting the content, not the filename
   // To save, we need to keep both encrypted content and nonce
+/*
+  {
+    public: true,
+    description: 'My first gist',
+    files: {
+       "file1.txt": {
+          content: "Aren't gists great!"
+       }
+    }
+ }
+*/
+github.gists.create|{public :true description; }
+
 });
 
 /* OPTIONAL - if you want to extend functionality */
