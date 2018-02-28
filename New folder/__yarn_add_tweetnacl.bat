@@ -1,2 +1,0 @@
-yarn add tweetnacl
-@pause
